@@ -1,10 +1,10 @@
 # HKG33 1w OHLCV Index Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-104_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-2_942_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full HKG33 dataset on ork.ad**](https://ork.ad/)
 
-**HKG33 1w OHLCV Stock index historical data** — ultra high-quality 1w OHLCV for **Hong Kong 33 Index**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**HKG33 1w OHLCV Stock index historical data** — ultra high-quality 1w OHLCV for **Hong Kong 33**. Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,14 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 1w OHLCV** for **Hong Kong 33 Index** (Stock index)
+- **Ultra high-quality 1w OHLCV** for **Hong Kong 33** (Stock index)
 - **Global cash and extended index sessions — Asia, Europe and US coverage, not US-hours only**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`1w`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **104** `1w` rows in the full archive
+- **Free evaluation sample** on GitHub (`1w`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **2,942** `1w` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `1w` sample updated in sync
 
-> **Sample on GitHub** · `HKG33_1w.csv` (105 rows, `2024-07-01` → `2026-06-29`). **Full archive on [ork.ad](https://ork.ad/)** — **104** `1w` rows (~0.01 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2024-07-08` → `2026-06-29`.
+> **Sample on GitHub** · `HKG33_1w.csv` (105 rows, `2024-07-01` → `2026-06-29`). **Full archive on [ork.ad](https://ork.ad/)** — **2,942** `1w` rows (~0.16 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `1970-02-09` → `2026-06-29`.
 
 ## Download sample
 
@@ -42,11 +42,11 @@ Interactive chart & stats: **[https://ork-ad.github.io/hkg33-1w-ohlcv-index-hist
 
 | | **Sample (this repo)** | **Full dataset ([ork.ad](https://ork.ad/))** |
 |---|--:|---|
-| Instrument | Hong Kong 33 Index · Stock index | Hong Kong 33 Index · Stock index |
+| Instrument | Hong Kong 33 · Stock index | Hong Kong 33 · Stock index |
 | Timeframes | `1w` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 1w rows | 105 | **104** |
-| Size | 0.01 MB | ~0.01 MB |
-| Period | `2024-07-01` → `2026-06-29` | `2024-07-08` → `2026-06-29` |
+| 1w rows | 105 | **2,942** |
+| Size | 0.01 MB | ~0.16 MB |
+| Period | `2024-07-01` → `2026-06-29` | `1970-02-09` → `2026-06-29` |
 | File | `HKG33_1w.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`HKG33_1w.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2024-07-01T00:00:00Z | 17667.907 | 18156.392 | 17581.38 | 17710.877 | 363133.0 |
-| 2024-07-08T00:00:00Z | 17710.877 | 18380.754 | 17353.994 | 18232.272 | 478781.0 |
-| 2024-07-15T00:00:00Z | 18232.272 | 18232.272 | 17347.503 | 17420.504 | 541486.0 |
-| 2024-07-22T00:00:00Z | 17420.504 | 17748.267 | 16915.069 | 17118.561 | 570801.0 |
-| 2024-07-29T00:00:00Z | 17118.561 | 17417.774 | 16799.518 | 16881.57 | 674485.0 |
+| 2024-07-01T00:00:00Z | 17669.32 | 18157.85 | 17583.0 | 17712.29 | 363133.0 |
+| 2024-07-08T00:00:00Z | 17712.29 | 18382.23 | 17355.39 | 18233.73 | 478781.0 |
+| 2024-07-15T00:00:00Z | 18233.73 | 18233.73 | 17348.89 | 17421.9 | 541486.0 |
+| 2024-07-22T00:00:00Z | 17421.9 | 17749.68 | 16916.42 | 17119.93 | 570801.0 |
+| 2024-07-29T00:00:00Z | 17119.93 | 17419.17 | 16800.86 | 16882.9 | 674485.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-06-01T00:00:00Z | 25199.022 | 26077.791 | 24594.356 | 24603.856 | 884644.0 |
-| 2026-06-08T00:00:00Z | 24603.856 | 24819.228 | 23964.41 | 24724.467 | 1428168.0 |
-| 2026-06-15T00:00:00Z | 24724.467 | 25040.18 | 23747.647 | 23856.649 | 605663.0 |
-| 2026-06-22T00:00:00Z | 23856.649 | 23964.93 | 22521.845 | 22912.859 | 1118895.0 |
+| 2026-06-01T00:00:00Z | 25201.04 | 26079.88 | 24596.32 | 24605.82 | 917269.0 |
+| 2026-06-08T00:00:00Z | 24605.82 | 24821.21 | 23966.33 | 24726.44 | 1444333.0 |
+| 2026-06-15T00:00:00Z | 24726.44 | 25042.18 | 23749.54 | 23858.56 | 765188.0 |
+| 2026-06-22T00:00:00Z | 23858.56 | 23966.85 | 22523.64 | 22914.7 | 1390849.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **HKG33** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **104** rows at `1w`, plus all other timeframes in the same ZIP.
+The complete **HKG33** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **2,942** rows at `1w`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full HKG33 dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · HKG33 1w OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · HKG33 1w OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
